@@ -1,0 +1,1 @@
+import{_ as n}from"./CLbRCun1.js";import{_ as a,c as r,a as s,d as e,b as _,w as c,o as l}from"./CiXfSIFn.js";const d={};function i(p,t){const o=n;return l(),r("div",null,[s("p",null,[t[1]||(t[1]=e(" Go to ")),_(o,{to:"/light"},{default:c(()=>t[0]||(t[0]=[e(" light page ")])),_:1})])])}const u=a(d,[["render",i]]);export{u as default};
