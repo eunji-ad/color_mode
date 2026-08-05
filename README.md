@@ -1,13 +1,16 @@
 <div align="center">
   <h1>MICHELAN GOLF Clone Project</h1>
   <p><strong>미켈란사이트의 후기 게시판, 공지사항 클론</strong></p>
-  <p>실제 서비스의 UI/UX를 구현하고, 컴포넌트 기반 개발과 Mock API를 활용한 CRUD 기능을 경험하기 위해 제작한 프로젝트입니다.</p>
+  <p style="font-size:14px;">실제 서비스의 UI/UX를 구현하고, 컴포넌트 기반 개발과 Mock API를 활용한 CRUD 기능을 경험하기 위해 제작한 프로젝트입니다.</p>
 </div>
 
 ---
 
 ## Features
 <details>
+<summary><strong>주요 기능들</strong></summary>
+
+```
   <ul>
     <li>Notice : 공지사항 목록 / 상세 조회</li>
   <li>Review : 리뷰 CRUD
@@ -19,6 +22,9 @@
   <li>Mock API : MSW 기반 API Mocking
   <li>Input : React Hook Form 기반 입력 상태 관리
   </ul>
+
+```
+
 </details>
 
 
@@ -26,6 +32,9 @@
 
 ## Tech Stack 
 <details> 
+<summary><strong>사용 기술 스택</strong></summary>
+
+```
   <ul>
     <li>Framework: Next.js  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js"/></li>
     <li>Library: React  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react"/></li>
@@ -37,11 +46,14 @@
     <li>Mock API: MSW  <img src="https://img.shields.io/badge/MSW-2-FF6A33?style=flat-square"/></li> 
     <li>Date Utility: date-fns  <img src="https://img.shields.io/badge/date--fns-770C56?style=flat-square&logo=date-fns&logoColor=white"/></li>  
   </ul> 
-</details> 
+
+```
+
+</details>
 
 ---
 
-
+## Project
 <details>
 <summary><strong>프로젝트 구조</strong></summary>
 
@@ -78,7 +90,10 @@ src/
 ---
 
 ## Component
+<details>
+<summary><strong>컴포넌트</strong></summary>
 
+```
 재사용 가능한 공통 컴포넌트를 제작했습니다.
 
 - Button
@@ -94,10 +109,15 @@ src/
 - Rating
 - Textarea
 - ToolTip
+```
+
+</details>
 
 ---
 
 ## Getting Started
+<details>
+<summary><strong></strong></summary>
 
 ```bash
 git clone <repository>
@@ -107,3 +127,4 @@ pnpm install
 pnpm run dev
 
 ```
+</details>
