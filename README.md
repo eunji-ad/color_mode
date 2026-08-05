@@ -10,7 +10,7 @@
 <details>
 <summary><strong>주요 기능들</strong></summary>
 
-<ul>
+<ul style="margin-top:30px;">
   <li>Notice : 공지사항 목록 / 상세 조회</li>
   <li>Review : 리뷰 CRUD
   <li>Image Upload : 리뷰 이미지 업로드
@@ -31,7 +31,7 @@
 <details> 
 <summary><strong>사용 기술 스택</strong></summary>
 
-<ul>
+<ul style="margin-top:30px;">
   <li>Framework: Next.js  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js"/></li>
   <li>Library: React  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react"/></li>
   <li>Language: TypeScript  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/></li> 
@@ -85,23 +85,32 @@ src/
 
 ## Component
 <details>
-<summary><strong>컴포넌트</strong></summary>
+<summary><strong>atoms</strong></summary>
 
-재사용 가능한 공통 컴포넌트를 제작했습니다.
+<ul style="margin-top:30px;">
+  <li>Button</li>
+  <li>BreadCrumb</li>
+  <li>CheckBox</li>
+  <li>Icon</li>
+  <li>Input</li>
+  <li>ImageUpload</li>
+  <li>Logo</li>
+  <li>Pagination</li>
+  <li>Popup</li>
+  <li>Rating</li>
+  <li>Textarea</li>
+  <li>ToolTip</li>
+</ul>
 
-- Button
-- BreadCrumb
-- CheckBox
-- Icon
-- Input
-- ImageUpload
-- Logo
-- Pagination
-- Popup
-- PostMenu
-- Rating
-- Textarea
-- ToolTip
+</details>
+
+<details>
+<summary><strong>molecules</strong></summary>
+
+<ul style="margin-top:30px;">
+  <li>PostMenu</li>
+  <li>SelectSearch</li>
+</ul>
 
 </details>
 
