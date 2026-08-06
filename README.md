@@ -11,15 +11,15 @@
 <strong>주요 기능들</strong>
 
 <ul>
-  <li>Notice : 공지사항 목록 / 상세 조회</li>
-  <li>Review : 리뷰 CRUD
-  <li>Image Upload : 리뷰 이미지 업로드
-  <li>Rating : 별점 등록
-  <li>Password : 비밀번호 팝업으로 검증 후 수정/삭제
-  <li>Pagination : 목록 카드 리스트 페이지네이션
-  <li>Responsive : 반응형 레이아웃
-  <li>Mock API : MSW 기반 API Mocking
-  <li>Input : React Hook Form 기반 입력 상태 관리
+  <li><strong>Notice</strong> : 공지사항 목록 / 상세 조회</li>
+  <li><strong>Review</strong> : 리뷰 CRUD
+  <li><strong>Image Upload</strong> : 리뷰 이미지 업로드
+  <li><strong>Rating</strong> : 별점 등록
+  <li><strong>Password</strong> : 비밀번호 팝업으로 검증 후 수정/삭제
+  <li><strong>Pagination</strong> : 목록 카드 리스트 페이지네이션
+  <li><strong>Responsive</strong> : 반응형 레이아웃
+  <li><strong>Mock API</strong> : MSW 기반 API Mocking
+  <li><strong>Input</strong> : React Hook Form 기반 입력 상태 관리
 </ul>
 
 
@@ -30,15 +30,15 @@
 <strong>사용 기술 스택</strong>
 
 <ul>
-  <li>Framework: Next.js  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js"/></li>
-  <li>Library: React  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react"/></li>
-  <li>Language: TypeScript  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/></li> 
-  <li>Styling: Tailwind CSS <img src="https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=flat-square&logo=tailwindcss"/></li> 
-  <li>State/Form Management: React Hook Form  <img src="https://img.shields.io/badge/ReactHookForm-7-EC5990?style=flat-square&logo=reacthookform"/></li> 
-  <li>Validation: Zod  <img src="https://img.shields.io/badge/Zod-4-3E67B1?style=flat-square"/></li> 
-  <li>Architecture: Feature-Sliced Design (FSD)  <img src="https://img.shields.io/badge/Architecture-FSD-6C63FF?style=flat-square"/></li> 
-  <li>Mock API: MSW  <img src="https://img.shields.io/badge/MSW-2-FF6A33?style=flat-square"/></li> 
-  <li>Date Utility: date-fns  <img src="https://img.shields.io/badge/date--fns-770C56?style=flat-square&logo=date-fns&logoColor=white"/></li>  
+  <li>Framework: <strong>Next.js</strong>  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js"/></li>
+  <li>Library: <strong>React</strong>  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react"/></li>
+  <li>Language: <strong>TypeScript</strong>  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/></li> 
+  <li>Styling: <strong>Tailwind CSS</strong>  <img src="https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=flat-square&logo=tailwindcss"/></li> 
+  <li>State/Form Management: <strong>React Hook Form</strong>  <img src="https://img.shields.io/badge/ReactHookForm-7-EC5990?style=flat-square&logo=reacthookform"/></li> 
+  <li>Validation: <strong>Zod</strong>  <img src="https://img.shields.io/badge/Zod-4-3E67B1?style=flat-square"/></li> 
+  <li>Architecture: <strong>Feature-Sliced Design (FSD)</strong>  <img src="https://img.shields.io/badge/Architecture-FSD-6C63FF?style=flat-square"/></li> 
+  <li>Mock API: <strong>MSW  <img src="https://img.shields.io/badge/MSW-2-FF6A33?style=flat-square"/></li> 
+  <li>Date Utility: <strong>date-fns</strong>  <img src="https://img.shields.io/badge/date--fns-770C56?style=flat-square&logo=date-fns&logoColor=white"/></li>  
 </ul> 
 
 
