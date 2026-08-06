@@ -6,9 +6,9 @@
 
 ---
 
+
 ## Features
-<details>
-<summary><strong>주요 기능들</strong></summary>
+<strong>주요 기능들</strong>
 
 <ul>
   <li>Notice : 공지사항 목록 / 상세 조회</li>
@@ -22,14 +22,12 @@
   <li>Input : React Hook Form 기반 입력 상태 관리
 </ul>
 
-</details>
-
 
 --- 
 
+
 ## Tech Stack 
-<details> 
-<summary><strong>사용 기술 스택</strong></summary>
+<strong>사용 기술 스택</strong>
 
 <ul>
   <li>Framework: Next.js  <img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=next.js"/></li>
@@ -43,13 +41,12 @@
   <li>Date Utility: date-fns  <img src="https://img.shields.io/badge/date--fns-770C56?style=flat-square&logo=date-fns&logoColor=white"/></li>  
 </ul> 
 
-</details>
 
 ---
 
+
 ## Project
-<details>
-<summary><strong>프로젝트 구조</strong></summary>
+<strong>프로젝트 구조</strong>
 
 ```
 src/
@@ -76,16 +73,13 @@ src/
 │   ├── mocks/             # MSW 핸들러 + 테스트 데이터
 │   └── types/             # 공통 타입 및 인터페이스 관리
 └── widgets/               # 페이지 단위 UI 조합
-
 ```
 
-</details>
 
 ---
 
+
 ## Component
-<details>
-<summary><strong>...</strong></summary>
 
 `Button`
 `BreadCrumb`
@@ -101,8 +95,6 @@ src/
 `Textarea`
 `ToolTip`
 `SelectSearch`
-
-</details>
 
 ---
 
