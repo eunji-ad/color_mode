@@ -85,23 +85,22 @@ src/
 
 ## Component
 <details>
-<summary><strong>atoms</strong></summary>
+<summary><strong>...</strong></summary>
 
-|----------|
-| `Button` |
-| `BreadCrumb` |
-| `CheckBox` |
-| `Icon` |
-| `Input` |
-| `ImgUpload` |
-| `Logo` |
-| `Pagination` |
-| `Popup` |
-| `Rating` |
-| `SelectBox` |
-| `Textarea` |
-| `ToolTip` |
-| `SelectSearch` |
+`Button`
+`BreadCrumb`
+`CheckBox`
+`Icon`
+`Input`
+`ImgUpload`
+`Logo`
+`Pagination`
+`Popup`
+`Rating`
+`SelectBox`
+`Textarea`
+`ToolTip`
+`SelectSearch`
 
 </details>
 
