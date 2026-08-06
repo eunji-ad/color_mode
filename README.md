@@ -84,13 +84,17 @@ src/
 `Button`
 `BreadCrumb`
 `CheckBox`
+`DownloadBtn`
 `Icon`
 `Input`
 `ImgUpload`
 `Logo`
 `Pagination`
 `Popup`
+`PostMenu`
+`PostNav`
 `Rating`
+`RatingStar`
 `SelectBox`
 `Textarea`
 `ToolTip`
