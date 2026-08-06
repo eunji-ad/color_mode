@@ -2,8 +2,7 @@
   <h1>🏌 MICHELAN GOLF Clone Project 🏌️‍♂️</h1>
   <p><strong>미켈란사이트의 후기 게시판, 공지사항 클론</strong></p>
   실제 서비스의 UI/UX를 구현하고, 컴포넌트 기반 개발과 
-  <br>Mock API를 활용한 CRUD 기능을 경험하기 위해
-  <br/>제작한 프로젝트입니다.
+  <br/>Mock API를 활용한 CRUD 기능을 경험하기 위해 제작한 프로젝트입니다.
 </div>
 
 ---
