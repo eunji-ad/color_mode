@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>MICHELAN GOLF Clone Project</h1>
+  <h1>🏌 MICHELAN GOLF Clone Project 🏌️‍♂️</h1>
   <p><strong>미켈란사이트의 후기 게시판, 공지사항 클론</strong></p>
   <p>실제 서비스의 UI/UX를 구현하고, 컴포넌트 기반 개발과 Mock API를 활용한 CRUD 기능을 경험하기 위해 제작한 프로젝트입니다.</p>
 </div>
@@ -37,7 +37,7 @@
   <li>State/Form Management: <strong>React Hook Form</strong>  <img src="https://img.shields.io/badge/ReactHookForm-7-EC5990?style=flat-square&logo=reacthookform"/></li> 
   <li>Validation: <strong>Zod</strong>  <img src="https://img.shields.io/badge/Zod-4-3E67B1?style=flat-square"/></li> 
   <li>Architecture: <strong>Feature-Sliced Design (FSD)</strong>  <img src="https://img.shields.io/badge/Architecture-FSD-6C63FF?style=flat-square"/></li> 
-  <li>Mock API: <strong>MSW  <img src="https://img.shields.io/badge/MSW-2-FF6A33?style=flat-square"/></li> 
+  <li>Mock API: <strong>MSW</strong>  <img src="https://img.shields.io/badge/MSW-2-FF6A33?style=flat-square"/></li> 
   <li>Date Utility: <strong>date-fns</strong>  <img src="https://img.shields.io/badge/date--fns-770C56?style=flat-square&logo=date-fns&logoColor=white"/></li>  
 </ul> 
 
