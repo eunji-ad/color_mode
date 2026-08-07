@@ -108,6 +108,19 @@ flowchart TD
 
     ReviewDetail --> ReviewEdit["후기 수정하기"]
     ReviewDetail --> ReviewDelete["후기 삭제하기"]
+
+
+    %% 스타일 정의
+    classDef home fill:#4F46E5,color:#fff,stroke:#312E81,stroke-width:2px;
+    classDef list fill:#DBEAFE,color:#1E3A8A,stroke:#2563EB;
+    classDef detail fill:#DCFCE7,color:#166534,stroke:#16A34A;
+    classDef action fill:#FEE2E2,color:#991B1B,stroke:#DC2626;
+    
+    %% 스타일 적용
+    class Home home;
+    class NoticeList,ReviewList list;
+    class NoticeDetail,ReviewDetail detail;
+    class ReviewWrite,ReviewEdit,ReviewDelete action;
 ```
 
 
