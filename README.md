@@ -113,3 +113,16 @@ pnpm install
 pnpm run dev
 
 ```
+
+```mermaid
+flowchart TD
+    Home --> NoticeList
+    NoticeList --> NoticeDetail
+
+    Home --> ReviewList
+    ReviewList --> ReviewDetail
+    ReviewList --> WriteReview
+
+    ReviewDetail --> EditReview
+    ReviewDetail --> DeleteReview
+```
