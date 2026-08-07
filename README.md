@@ -98,7 +98,7 @@ src/
 ## Flowchart(TD)
 
 ```mermaid
-
+flowchart TD
     Home --> 공지사항(리스트)
     공지사항(리스트) --> 공지 상세보기
 
