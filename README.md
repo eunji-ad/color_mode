@@ -99,15 +99,15 @@ src/
 
 ```mermaid
 flowchart TD
-    Home --> 공지사항(리스트)
-    공지사항(리스트) --> 공지 상세보기
+    Home --> NoticeList["공지사항 (리스트)"]
+    NoticeList --> NoticeDetail["공지 상세보기"]
 
-    Home --> 후기 게시판(리스트)
-    후기 게시판(리스트) --> 후기 상세보기
-    후기 게시판(리스트) --> 후기 작성하기
+    Home --> ReviewList["후기 게시판 (리스트)"]
+    ReviewList --> ReviewDetail["후기 상세보기"]
+    ReviewList --> ReviewWrite["후기 작성하기"]
 
-    후기 상세보기 --> 수정하기
-    후기 상세보기 --> 삭제하기
+    ReviewDetail --> ReviewEdit["후기 수정하기"]
+    ReviewDetail --> ReviewDelete["후기 삭제하기"]
 ```
 
 
