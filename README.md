@@ -111,7 +111,7 @@ flowchart TD
 
 
     %% 스타일 정의
-    classDef home fill:#D1D9E0,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:0px;
+    classDef home fill:#D1D9E0,color:#FFF,stroke:#D1D9E0,stroke-width:2px, padding:0px;
     classDef list fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:0px;
     classDef detail fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:0px;
     classDef action fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:0px;
