@@ -46,7 +46,22 @@
 ---
 
 
-## Project
+## Getting Started
+
+```bash
+git clone <repository>
+
+pnpm install
+
+pnpm run dev
+
+```
+
+
+---
+
+
+## FSD
 <strong>프로젝트 구조</strong>
 
 ```
@@ -64,7 +79,7 @@ src/
 │
 ├── features/              # 사용자 기능 UI 조합
 ├── public/                # 공통 소스들(파일, 폰트, 이미지)
-├── schema/                # 후기 등록 Input 입력 값 검증 규칙 정의
+├── schema/                # 후기 등록 Input 입력 값 검증 규칙 정의 (Zod 기반)
 ├── shared/
 │   └── ui/
 │       ├── atoms/         # 기본 컴포넌트 (Text, Checkbox 등)
@@ -74,6 +89,25 @@ src/
 │   ├── mocks/             # MSW 핸들러 + 테스트 데이터
 │   └── types/             # 공통 타입 및 인터페이스 관리
 └── widgets/               # 페이지 단위 UI 조합
+```
+
+
+---
+
+
+## Flowchart(TD)
+
+```mermaid
+
+    Home --> 공지사항(리스트)
+    공지사항(리스트) --> 공지 상세보기
+
+    Home --> 후기 게시판(리스트)
+    후기 게시판(리스트) --> 후기 상세보기
+    후기 게시판(리스트) --> 후기 작성하기
+
+    후기 상세보기 --> 수정하기
+    후기 상세보기 --> 삭제하기
 ```
 
 
@@ -101,28 +135,5 @@ src/
 `ToolTip`
 `SelectSearch`
 
+
 ---
-
-## Getting Started
-
-```bash
-git clone <repository>
-
-pnpm install
-
-pnpm run dev
-
-```
-
-```mermaid
-flowchart TD
-    Home --> NoticeList
-    NoticeList --> NoticeDetail
-
-    Home --> ReviewList
-    ReviewList --> ReviewDetail
-    ReviewList --> WriteReview
-
-    ReviewDetail --> EditReview
-    ReviewDetail --> DeleteReview
-```
