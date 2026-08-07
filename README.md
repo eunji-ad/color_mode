@@ -111,11 +111,11 @@ flowchart TD
 
 
     %% 스타일 정의
-    classDef home fill:#4F46E5,color:#fff,stroke:#312E81,stroke-width:2px;
-    classDef list fill:#DBEAFE,color:#1E3A8A,stroke:#2563EB;
-    classDef detail fill:#DCFCE7,color:#166534,stroke:#16A34A;
-    classDef action fill:#FEE2E2,color:#991B1B,stroke:#DC2626;
-    
+    classDef home fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:16px;
+    classDef list fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:16px;
+    classDef detail fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:16px;
+    classDef action fill:#F6F8FA,color:#333,stroke:#D1D9E0,stroke-width:2px, padding:16px;
+
     %% 스타일 적용
     class Home home;
     class NoticeList,ReviewList list;
