@@ -95,10 +95,10 @@ src/
 ---
 
 
-## Flowchart(TD)
+## Flowchart(LR)
 
 ```mermaid
-flowchart TD
+flowchart LR
     Home --> NoticeList["공지사항 (리스트)"]
     NoticeList --> NoticeDetail["공지 상세보기"]
 
